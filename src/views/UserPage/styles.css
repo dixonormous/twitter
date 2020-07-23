@@ -1,0 +1,71 @@
+.tweet-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.tweets {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding-top: 20px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.tweet-base {
+  padding: 3px 0px;
+}
+
+.tweet-card {
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.tweet-user-details {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.tweet-user-details h4 {
+  margin: 0;
+}
+
+.tweet-user-details h5 {
+  color: gray;
+  padding: 0px 10px;
+  font-size: 15px;
+  margin: 0;
+}
+
+.tweet-user-details span {
+  color: gray;
+  font-size: 15px;
+}
+
+.tweet-bottom-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweet-delete-button {
+  border-color: lightgray;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+@media screen and (max-width: 750px) {
+  .tweets {
+    max-width: 500px;
+  }
+}
